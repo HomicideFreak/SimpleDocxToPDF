@@ -1,6 +1,7 @@
 from docx2pdf import convert
 import customtkinter
 import threading
+import os
 
 customtkinter.set_appearance_mode("Dark")
 customtkinter.set_default_color_theme("dark-blue")
@@ -9,7 +10,8 @@ root = customtkinter.CTk()
 root.geometry("500x450")
 root.title("Simple Docx to PDF Converter")
 root.resizable(False, False)
-root.iconbitmap("icon.ico")
+iconPath = os.getcwd()
+root.iconbitmap(iconPath+"\Resources\icon.ico")
 
 inFilePath = None
 outFilePath = None
@@ -61,5 +63,3 @@ button = customtkinter.CTkButton(master=frame, text="Convert", font=("Arial", 24
 button.pack(pady=12, padx=10)
 
 root.mainloop()
-
-
