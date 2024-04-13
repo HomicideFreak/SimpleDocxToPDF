@@ -10,7 +10,7 @@
 - When user doesn't specify the out path the path will remain the same as in path.
 - In order to change name of file after choosing out path user must choose it again after specifying name of out file.
 ## Release
-- https://github.com/HomicideFreak/SimpleDocxToPDF/releases/download/auto/Simple.Docx2PDF.zip
+- [https://github.com/HomicideFreak/SimpleDocxToPDF/releases/download/auto/Simple.Docx2PDF.zip](https://github.com/HomicideFreak/SimpleDocxToPDF/releases/download/auto/Simple.Docx2PDF.zip)
 ## Authors
 
 **Mateusz Giemza**
