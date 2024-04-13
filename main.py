@@ -53,7 +53,7 @@ label1.pack(pady=12, padx=10)
 button_file_out = customtkinter.CTkButton(master=frame, text="Choose Out File Path", command=lambda: openFileDialOutFile(label2, entry1))
 button_file_out.pack(pady=12, padx=10)
 
-label2_Text = "Out File Path: " + str(outFilePath)
+label2_Text = "Out File Path: Default (Same as Input)"
 label2 = customtkinter.CTkLabel(master=frame, text=label2_Text)
 label2.pack(pady=12, padx=10)
 
